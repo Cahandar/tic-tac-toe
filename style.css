@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+table{
+    margin: auto;
+}
+table,td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+td{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 22px;
+    font-family: sans-serif;
+    user-select: none;
+}
+#main{
+    width: 500px;
+    margin: auto;
+    display: flex;
+}
+#bir {
+    margin: auto;
+   display: flex; 
+   flex-direction: column;
+}
+#iki {
+    margin: auto;
+    display: flex; 
+    flex-direction: column;
+ }
+ #i1{
+     width: 50px;
+ }
+ #i2{
+    width: 50px;
+}
