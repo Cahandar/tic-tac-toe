@@ -107,7 +107,7 @@ function Check() {
 
 
 
-    if (count%9==0 ) {
+    if (count%10==0 ) {
       alert("beraber");
       Restart();
     }
@@ -117,7 +117,7 @@ function Check() {
 
 
 function Restart() {
-  count = 0;
+  count = 1;
   Arr();
   Tbl();
 }
